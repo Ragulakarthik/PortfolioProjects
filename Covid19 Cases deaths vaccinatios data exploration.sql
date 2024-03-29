@@ -1,3 +1,7 @@
+-- This project aims to analyze COVID-19 data to understand trends, patterns, and impacts of the pandemic. 
+-- It utilizes publicly available data sources to explore various aspects of the COVID-19 outbreak, with 
+-- a particular focus on analyzing the percentage of deaths and cases registered.
+
 select * from PortfolioProject..coviddeaths
 where continent is not null
 order by 3,4
